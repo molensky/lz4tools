@@ -37,7 +37,7 @@ setup(
             "-O3",
             "-Wall",
             # "-W",
-            "-Wundef",
+            #"-Wundef",
             "-DVERSION=\"%s\"" % VERSION_STR,
             "-DLZ4_VERSION=\"r124\"",
         ])],
