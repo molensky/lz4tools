@@ -36,7 +36,7 @@ setup(
             "-std=c99",
             "-O3",
             "-Wall",
-            "-W",
+            # "-W",
             "-Wundef",
             "-DVERSION=\"%s\"" % VERSION_STR,
             "-DLZ4_VERSION=\"r124\"",
